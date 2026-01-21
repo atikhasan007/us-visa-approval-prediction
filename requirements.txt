@@ -1,0 +1,24 @@
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scipy
+scikit-learn
+imbalanced-learn
+xgboost
+catboost
+pymongo
+evidently==0.2.8
+dill
+PyYAML
+boto3
+mypy-boto3-s3
+botocore
+fastapi
+uvicorn
+jinja2
+python-multipart
+
+
+-e .
