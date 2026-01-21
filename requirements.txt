@@ -22,3 +22,9 @@ python-multipart==0.0.20
 
 
 -e .
+
+
+#if you are getting monoDB error use this cmd
+
+pip uninstall -y pymongo motor mongoengine dgongo
+pip install -u "pymongo>=4.7" dnspython certifi
