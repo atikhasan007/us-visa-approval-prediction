@@ -1,24 +1,24 @@
-pandas
-numpy
-matplotlib
-plotly
-seaborn
-scipy
-scikit-learn
-imbalanced-learn
-xgboost
-catboost
-pymongo
+pandas==2.0.3
+numpy==1.24.4
+matplotlib==3.7.5
+plotly==6.5.2
+seaborn==0.13.2
+scipy==1.10.1
+scikit-learn==1.3.2
+imbalanced-learn==0.12.4
+xgboost==2.1.4
+catboost==1.2.8
+pymongo==4.10.1
 evidently==0.2.8
-dill
-PyYAML
-boto3
-mypy-boto3-s3
-botocore
-fastapi
-uvicorn
-jinja2
-python-multipart
+dill==0.4.0
+PyYAML==6.0.3
+boto3==1.37.38
+mypy-boto3-s3==1.40.61
+botocore==1.37.38
+fastapi==0.124.4
+uvicorn=0.33.0
+jinja2==3.1.6
+python-multipart==0.0.20
 
 
 -e .
