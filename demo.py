@@ -1,6 +1,7 @@
 from us_visa.logger import  logging
 from us_visa.exception import USVisaException
 import sys
+import os
 
 
 #logging.info("Logging setup complete.")
@@ -16,3 +17,5 @@ import sys
 
 
 
+monogodburl = os.getenv("MONGODB_URL")
+print(monogodburl)
