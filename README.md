@@ -44,5 +44,5 @@ pip install -r requirements.txt
 
 ## export the environment variable
 ```bash
-export MONGODB_URL=""
+export MONGODB_URL="your mongodb_url"
 ```
