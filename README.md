@@ -6,12 +6,23 @@
 2. Vs code : https://code.visualstudio.com/download
 3. Git: https://git-scm.com/
 
+## For flowchart
+- https://whimsical.com
 
 ### Database used
 - MongoDB: https://account.mongodb.com/account/login
 
 ### Dataset used
 - kaggle: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
+
+
+## WorkFlow
+1. constant
+2. config_entity
+3. artifact_entity
+4. conponent
+5. pipeline
+6. app.py / demo.py
 
 ## How to run ?
 
