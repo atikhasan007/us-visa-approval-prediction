@@ -6,7 +6,7 @@ import dill
 import yaml
 from pandas import DataFrame
 
-from us_visa.exception import USVisaException
+from us_visa.exception import USvisaException
 from us_visa.logger import logging
 
 
@@ -16,7 +16,7 @@ def read_yaml_file(file_path: str) -> dict:
             return yaml.safe_load(yaml_file)
 
     except Exception as e:
-        raise USVisaException(e, sys) from e
+        raise USvisaException(e, sys) from e
 
 
 def write_yaml_file(file_path: str, content: object, replace: bool = False) -> None:
@@ -29,7 +29,7 @@ def write_yaml_file(file_path: str, content: object, replace: bool = False) -> N
             yaml.dump(content, file, default_flow_style=False)
 
     except Exception as e:
-        raise USVisaException(e, sys) from e
+        raise USvisaException(e, sys) from e
 
 
 def load_object(file_path: str) -> object:
@@ -43,7 +43,7 @@ def load_object(file_path: str) -> object:
         return obj
 
     except Exception as e:
-        raise USVisaException(e, sys) from e
+        raise USvisaException(e, sys) from e
 
 
 def save_numpy_array_data(file_path: str, array: np.array):
@@ -58,7 +58,7 @@ def save_numpy_array_data(file_path: str, array: np.array):
             np.save(file_obj, array)
 
     except Exception as e:
-        raise USVisaException(e, sys) from e
+        raise USvisaException(e, sys) from e
 
 
 def load_numpy_array_data(file_path: str) -> np.array:
@@ -70,7 +70,7 @@ def load_numpy_array_data(file_path: str) -> np.array:
             return np.load(file_obj, allow_pickle=True)
 
     except Exception as e:
-        raise USVisaException(e, sys) from e
+        raise USvisaException(e, sys) from e
 
 
 def save_object(file_path: str, obj: object) -> None:
@@ -85,7 +85,7 @@ def save_object(file_path: str, obj: object) -> None:
         logging.info("Exited the save_object method of utils")
 
     except Exception as e:
-        raise USVisaException(e, sys) from e
+        raise USvisaException(e, sys) from e
 
 
 def drop_columns(df: DataFrame, cols: list) -> DataFrame:
@@ -101,4 +101,4 @@ def drop_columns(df: DataFrame, cols: list) -> DataFrame:
         return df
 
     except Exception as e:
-        raise USVisaException(e, sys) from e
+        raise USvisaException(e, sys) from e
