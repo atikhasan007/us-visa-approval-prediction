@@ -1,7 +1,7 @@
 import os
-from datatime import date
+from datetime import date
 
-DATABASE_NAME = "US-VISA"
+DATABASE_NAME = "us_visa"
 COLLECTION_NAME = "visa_date"
 MONGODB_URL_KEY = "MONGODB_URL"
 PIPELINE_NAME : str = 'usvisa'

@@ -16,7 +16,7 @@ def error_message_detail(error, error_detail: sys):
     return error_message
 
 
-class USVisaException(Exception):
+class USvisaException(Exception):
     """
     Custom exception class for detailed error messages.
     """
