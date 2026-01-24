@@ -12,6 +12,7 @@ pymongo==4.10.1
 evidently==0.2.8
 dill==0.4.0
 PyYAML==6.0.3
+neuro_mf
 boto3==1.37.38
 mypy-boto3-s3==1.40.61
 botocore==1.37.38
