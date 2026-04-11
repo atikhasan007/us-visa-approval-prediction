@@ -46,3 +46,12 @@ pip install -r requirements.txt
 ```bash
 export MONGODB_URL="your mongodb_url"
 ```
+
+## Work step 
+-- Data ingesion
+-- data validation
+-- data Transformation
+-- model training
+-- model evaluation
+-- model puser
+-- prediction pipeline
